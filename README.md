@@ -3,15 +3,60 @@
 ## Atom
 
 * Basics
-  * Font: `Operator Mono Light (Operator Mono family)`
+  * Font: `Operator Mono Light` (Operator Mono Family)
   * Syntax Theme: `monokai-shade`
   * UI Theme: `City Lights`
   * Icon theme: `city-lights-icons`
 * Packages
   * `language-babel`
-  * `linter-flow`
+  * `linter-flow` (for Facebook flow types)
   * `busy-signal`
   * `minimap`
+  * `linter-eslint` (for Airbnb javascript style guide)
+
+## Airbnb Javascript Style Guide
+* Follow https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
+  * List peer dependencies:
+  ```
+  npm info "eslint-config-airbnb@latest" peerDependencies
+  ```
+  * Add each peer dependency:
+  ```
+  yarn add -D <dependency1>@<version> <dependency2>@<version> <dependency3>@<version>
+  ```
+  * Add `eslint` & `eslint-config-airbnb` itself:
+  ```
+  yarn add -D eslint eslint-config-airbnb
+  ```
+  * Create `.eslintrc.js` file:
+  ```
+  module.exports = {
+    "extends": "airbnb"
+  };
+  ```
+  * Install `linter-eslint` on Atom Editor
+
+## Facebook Flow
+* Installation
+  * Install `babel-cli` and `babel-preset-flow`
+  ```
+  yarn add -D babel-cli babel-preset-flow
+  ```
+  * Add `flow` in `.babelrc` file:
+  ```
+  {
+    "presets": ["flow"]
+  }
+  ```
+  * Add `flow` bin:
+  ```
+  yarn add --dev flow-bin
+  ```
+  * Run `flow`
+  ```
+  yarn run flow
+  ```
+  * Install `linter-flow` on Atom Editor
 
 ## Git
 
