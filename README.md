@@ -1,14 +1,12 @@
 # references
-Let's keep it simple.
-
 
 ## Atom
 
 * Basics
-  * Font: `Operator Mono`
-  * Syntax Theme: `monokai-shade (themes)`
-  * UI Theme: `One Dark (themes)`
-  * Icon theme: `city-lights-icons (packages)`
+  * Font: `Operator Mono Light (Operator Mono family)`
+  * Syntax Theme: `monokai-shade`
+  * UI Theme: `City Lights`
+  * Icon theme: `city-lights-icons`
 * Packages
   * `language-babel`
   * `linter-flow`
