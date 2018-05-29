@@ -35,6 +35,20 @@
   };
   ```
   * Install `linter-eslint` on Atom Editor
+  * Install `babel-eslint`
+  ```
+  yarn add babel-eslint -D
+  ```
+  * Modify `.eslintrc`
+  ```
+  module.exports = {
+    "parser": "babel-eslint" ,
+    "rules": {
+      "strict": 0
+    },
+    "extends": "airbnb"
+  };
+  ```
 
 ## Facebook Flow
 * Installation
