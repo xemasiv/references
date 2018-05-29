@@ -15,6 +15,17 @@
   * `linter-eslint` (for Airbnb javascript style guide)
 
 ## Airbnb Javascript Style Guide
+* Install babel preset
+  * Install with yarn
+  ```
+  yarn add -D babel-preset-airbnb
+  ```
+  * Modify `.babelrc`
+  ```
+  {
+    "presets": ["airbnb"]
+  }
+  ```
 * Follow https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
   * List peer dependencies:
   ```
