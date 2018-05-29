@@ -26,6 +26,18 @@
     "presets": ["airbnb"]
   }
   ```
+  ```
+  // when replacing preset env
+  {
+    "presets": [["airbnb", {
+      "targets": {
+        "chrome": 50,
+        "explorer": 11,
+        "firefox": 45
+      }
+    }]]
+  }
+  ```
 * Follow https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
   * List peer dependencies:
   ```
