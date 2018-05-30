@@ -33,6 +33,10 @@
   * Commands (3rd input, text-area): `C:\cygwin64\Cygwin.bat -c "/bin/xchere /bin/bash.exe '%V'"`
   * Add hotkey: `CTRL + N`
   * `Save Settings`
+* Append to path with `pathed`:
+  * Open `cmd` as Admin
+  * Go to `C:\cygwin64\bin`
+  * Run `pathed /APPEND %CD% /MACHINE`
 
 #### Putty
 * @ http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
