@@ -1,16 +1,34 @@
 # references
 
-## Minimal Dev Env (Windows)
+## Minimal Dev Env (Win64)
 
-#### Gtools
+#### Gtools 
 * Contains `which` (for locating files) and `pathed` (for appending paths to PATH).
-* http://p-nand-q.com/download/gtools/index.html
-* **which**
-  * Usage: `which calc`
-  * Returns: `C:\Windows\system32\calc.exe`
+* Download at: http://p-nand-q.com/download/gtools/index.html
 * **pathed**
   * Append current path to PATH: `pathed /APPEND %CD% /MACHINE`
   * Append specific path to PATH: `pathed /APPEND C:\path\goes\here /MACHINE`
+* **which**
+  * Usage: `which calc`
+  * Returns: `C:\Windows\system32\calc.exe`
+
+#### Putty (installer available)
+* Download at: http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+#### SysInternals Suite (binaries only)
+* Download at: https://technet.microsoft.com/en-us/sysinternals/bb842062.aspx
+
+#### Curl (binaries only)
+* Download at: https://curl.haxx.se/download.html (Viktor Szakáts' release)
+
+#### Cmder (installer available)
+* Download at: http://cmder.net/
+
+#### Git (installer available)
+* Download at: https://git-scm.com/download/
+
+#### 7-zip (installer available)
+* Download at: https://www.7-zip.org/download.html
 
 ## Atom
 
