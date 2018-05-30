@@ -2,6 +2,9 @@
 
 ## Minimal Dev Env (Win64)
 
+#### Google Chrome (installer available, standalone)
+* @ https://www.google.com/chrome/?system=true&standalone=1
+
 #### Gtools (installer available)
 * @ http://p-nand-q.com/download/gtools/index.html
 * **pathed** (for appending paths to PATH)
@@ -35,17 +38,23 @@
 #### 7-zip (installer available)
 * @ https://www.7-zip.org/download.html
 
-#### Google Chrome (installer available, standalone)
-* @ https://www.google.com/chrome/?system=true&standalone=1
-
-#### Java (installer available)
-* @ https://www.java.com/en/download/manual.jsp
-
 #### Atom Editor (installer available)
 * @ https://atom.io
 
 #### Notepad++ (installer available)
 * @ https://notepad-plus-plus.org/download/v7.5.6.html
+
+#### Java (installer available)
+* @ https://www.java.com/en/download/manual.jsp
+
+#### SumatraPDF (installer available)
+* @ https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
+
+#### K-Lite Codec Pack (installer available)
+* @ https://www.codecguide.com/download_kl.htm
+
+#### F.lux (installer available)
+* @ https://justgetflux.com
 
 ---
 
