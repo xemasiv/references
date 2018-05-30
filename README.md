@@ -1,5 +1,17 @@
 # references
 
+## Minimal Dev Env (Windows)
+
+#### Gtools
+* Contains `which` (for locating files) and `pathed` (for appending paths to PATH).
+* http://p-nand-q.com/download/gtools/index.html
+* **which**
+  * Usage: `which calc`
+  * Returns: `C:\Windows\system32\calc.exe`
+* **pathed**
+  * Append current path to PATH: `pathed /APPEND %CD% /MACHINE`
+  * Append specific path to PATH: `pathed /APPEND C:\path\goes\here /MACHINE`
+
 ## Atom
 
 * Basics
