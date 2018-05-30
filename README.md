@@ -71,6 +71,18 @@
 #### Git (optional, for cmd)
 * @ https://git-scm.com/download/
 
+#### Git Flow
+* Setup
+  * At `cygwin` terminal, just run:
+  ```
+  wget -q -O - --no-check-certificate https://github.com/nvie/gitflow/raw/develop/contrib/gitflow-installer.sh | bash
+  ```
+* Refs:
+  * https://github.com/nvie/gitflow
+  * https://nvie.com/posts/a-successful-git-branching-model/
+  * https://jeffkreeftmeijer.com/git-flow/
+  * https://github.com/nvie/gitflow/wiki/Windows
+
 ---
 
 ## Atom
