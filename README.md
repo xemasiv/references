@@ -2,7 +2,7 @@
 
 ## Minimal Dev Env (Win64)
 
-#### Gtools 
+#### Gtools (installer available)
 * Contains `which` (for locating files) and `pathed` (for appending paths to PATH).
 * Download at: http://p-nand-q.com/download/gtools/index.html
 * **pathed**
@@ -29,6 +29,18 @@
 
 #### 7-zip (installer available)
 * Download at: https://www.7-zip.org/download.html
+
+#### Google Chrome (installer available, standalone)
+* Download at: https://www.google.com/chrome/?system=true&standalone=1
+
+#### Java (installer available)
+* Download at: https://www.java.com/en/download/manual.jsp
+
+#### Atom Editor (installer available)
+* Download at: https://atom.io
+
+#### Notepad++ (installer available)
+* Download at: https://notepad-plus-plus.org/download/v7.5.6.html
 
 ## Atom
 
