@@ -35,7 +35,7 @@
 * @ http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 #### WinSCP
-* https://winscp.net/eng/download.php
+* @ https://winscp.net/eng/download.php
 
 #### Cmder
 * @ http://cmder.net/
