@@ -20,25 +20,25 @@
 #### Curl (binaries only)
 * @ https://curl.haxx.se/download.html (Viktor Szakáts' release)
 
+#### Cmder
+* @ http://cmder.net/
+
 #### Cygwin (bash-based)
 * @ https://cygwin.com/install.html
-* Select `git`, `wget`, `openssh`
+* Note: Select `git`, `wget`, `openssh` and `chere` (required for cmder)
 * Comes with `bash`, `utils-linux`, `openssl`
-
-#### OpenSSH (optional, for cmd)
-* @ https://www.mls-software.com/opensshd.html
-
-#### Git (optional, for cmd)
-* @ https://git-scm.com/download/
+* Setup with `cmder` as a task:
+  * Task name (1st input, text-box): `cygwin`
+  * Task parameters (2nd input, text-box): `/icon C:\cygwin64\Cygwin-Terminal.ico`
+  * Commands (3rd input, text-area): `C:\cygwin64\Cygwin.bat -c "/bin/xchere /bin/bash.exe '%V'"`
+  * Add hotkey: `CTRL + N`
+  * `Save Settings`
 
 #### Putty
 * @ http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 #### WinSCP
 * @ https://winscp.net/eng/download.php
-
-#### Cmder
-* @ http://cmder.net/
 
 #### 7-zip
 * @ https://www.7-zip.org/download.html
@@ -60,6 +60,12 @@
 
 #### F.lux
 * @ https://justgetflux.com
+
+#### OpenSSH (optional, for cmd)
+* @ https://www.mls-software.com/opensshd.html
+
+#### Git (optional, for cmd)
+* @ https://git-scm.com/download/
 
 ---
 
