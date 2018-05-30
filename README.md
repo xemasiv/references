@@ -25,7 +25,7 @@
 
 #### Cygwin (bash-based)
 * @ https://cygwin.com/install.html
-* Note: Select `git`, `wget`, `openssh` and `chere` (required for cmder)
+* Note: Select `git`, `wget`, `openssh`, `bash-completion` and `chere` (required for cmder)
 * Comes with `bash`, `utils-linux`, `openssl`
 * Setup with `cmder` as a task:
   * Task name (1st input, text-box): `cygwin`
