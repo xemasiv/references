@@ -20,6 +20,9 @@
 #### Putty (installer available)
 * @ http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
+#### OpenSSH (installer available)
+* @ https://www.mls-software.com/opensshd.html
+
 #### WinSCP (installer available)
 * https://winscp.net/eng/download.php
 
