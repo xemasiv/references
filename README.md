@@ -2,10 +2,10 @@
 
 ## Minimal Dev Env (Win64)
 
-#### Google Chrome (installer available, standalone)
+#### Google Chrome
 * @ https://www.google.com/chrome/?system=true&standalone=1
 
-#### Gtools (installer available)
+#### Gtools
 * @ http://p-nand-q.com/download/gtools/index.html
 * **pathed** (for appending paths to PATH)
   * Append current path: `pathed /APPEND %CD% /MACHINE`
@@ -20,40 +20,45 @@
 #### Curl (binaries only)
 * @ https://curl.haxx.se/download.html (Viktor Szakáts' release)
 
-#### Putty (installer available)
-* @ http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+#### Cygwin (bash-based)
+* @ https://cygwin.com/install.html
+* Select `git`, `wget`, `openssh`
+* Comes with `bash`, `utils-linux`, `openssl`
 
-#### OpenSSH (installer available)
+#### OpenSSH (optional, for cmd)
 * @ https://www.mls-software.com/opensshd.html
 
-#### WinSCP (installer available)
-* https://winscp.net/eng/download.php
-
-#### Cmder (installer available)
-* @ http://cmder.net/
-
-#### Git (installer available)
+#### Git (optional, for cmd)
 * @ https://git-scm.com/download/
 
-#### 7-zip (installer available)
+#### Putty
+* @ http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+#### WinSCP
+* https://winscp.net/eng/download.php
+
+#### Cmder
+* @ http://cmder.net/
+
+#### 7-zip
 * @ https://www.7-zip.org/download.html
 
-#### Atom Editor (installer available)
+#### Atom Editor
 * @ https://atom.io
 
-#### Notepad++ (installer available)
+#### Notepad++
 * @ https://notepad-plus-plus.org/download/v7.5.6.html
 
-#### Java (installer available)
+#### Java
 * @ https://www.java.com/en/download/manual.jsp
 
-#### SumatraPDF (installer available)
+#### SumatraPDF
 * @ https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
 
-#### K-Lite Codec Pack (installer available)
+#### K-Lite Codec Pack
 * @ https://www.codecguide.com/download_kl.htm
 
-#### F.lux (installer available)
+#### F.lux
 * @ https://justgetflux.com
 
 ---
