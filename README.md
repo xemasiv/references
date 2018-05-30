@@ -3,44 +3,48 @@
 ## Minimal Dev Env (Win64)
 
 #### Gtools (installer available)
-* Contains `which` (for locating files) and `pathed` (for appending paths to PATH).
-* Download at: http://p-nand-q.com/download/gtools/index.html
-* **pathed**
-  * Append current path to PATH: `pathed /APPEND %CD% /MACHINE`
-  * Append specific path to PATH: `pathed /APPEND C:\path\goes\here /MACHINE`
-* **which**
+* @ http://p-nand-q.com/download/gtools/index.html
+* **pathed** (for appending paths to PATH)
+  * Append current path: `pathed /APPEND %CD% /MACHINE`
+  * Append specific path: `pathed /APPEND C:\path\goes\here /MACHINE`
+* **which** (for locating files)
   * Usage: `which calc`
   * Returns: `C:\Windows\system32\calc.exe`
 
-#### Putty (installer available)
-* Download at: http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
-
 #### SysInternals Suite (binaries only)
-* Download at: https://technet.microsoft.com/en-us/sysinternals/bb842062.aspx
+* @ https://technet.microsoft.com/en-us/sysinternals/bb842062.aspx
 
 #### Curl (binaries only)
-* Download at: https://curl.haxx.se/download.html (Viktor Szakáts' release)
+* @ https://curl.haxx.se/download.html (Viktor Szakáts' release)
+
+#### Putty (installer available)
+* @ http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+#### WinSCP (installer available)
+* https://winscp.net/eng/download.php
 
 #### Cmder (installer available)
-* Download at: http://cmder.net/
+* @ http://cmder.net/
 
 #### Git (installer available)
-* Download at: https://git-scm.com/download/
+* @ https://git-scm.com/download/
 
 #### 7-zip (installer available)
-* Download at: https://www.7-zip.org/download.html
+* @ https://www.7-zip.org/download.html
 
 #### Google Chrome (installer available, standalone)
-* Download at: https://www.google.com/chrome/?system=true&standalone=1
+* @ https://www.google.com/chrome/?system=true&standalone=1
 
 #### Java (installer available)
-* Download at: https://www.java.com/en/download/manual.jsp
+* @ https://www.java.com/en/download/manual.jsp
 
 #### Atom Editor (installer available)
-* Download at: https://atom.io
+* @ https://atom.io
 
 #### Notepad++ (installer available)
-* Download at: https://notepad-plus-plus.org/download/v7.5.6.html
+* @ https://notepad-plus-plus.org/download/v7.5.6.html
+
+---
 
 ## Atom
 
