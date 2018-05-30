@@ -51,7 +51,7 @@
 * @ https://atom.io
 
 #### Notepad++
-* @ https://notepad-plus-plus.org/download/v7.5.6.html
+* @ https://notepad-plus-plus.org/download/
 
 #### Java
 * @ https://www.java.com/en/download/manual.jsp
